@@ -1,8 +1,8 @@
-\# EC2 Launch Task (Manual + Terraform)
+EC2 Launch Task (Manual + Terraform)
 
 
 
-\## Part 1: Manual EC2 Launch
+Part 1: Manual EC2 Launch
 
 \- Launched instance using AWS Console
 
@@ -14,9 +14,9 @@
 
 
 
-\## Part 2: Terraform EC2 Provisioning
+Part 2: Terraform EC2 Provisioning
 
-\### Terraform Files
+Terraform Files
 
 \- provider.tf
 
@@ -26,25 +26,25 @@
 
 
 
-\### Commands Used
-
+Commands Used
+```bash
 terraform init  
 
 terraform plan  
 
 terraform apply  
+```
 
 
-
-\### Result
+Result
 
 Terraform created an EC2 instance successfully.
-
+```bash
 Output Public IP: xx.xx.xx.xx
+```
 
 
-
-\## Conclusion
+Conclusion
 
 Task completed successfully.
 
